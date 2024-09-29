@@ -1,7 +1,5 @@
 # SIEM-LAB
-<p align="center">
-<img src="./assets/wazuh_logo.svg" height="70%" width="70%" alt="Sentinel logo"/>
-</p>
+
 
 
 <h1> Wazuh home lab </h1>
@@ -35,9 +33,7 @@ While looking for implementing this there was a very nice video, which I recomme
 </p>
 <br>
                                                                                     
-<p>
-<img src="./assets/Linode_config.png"80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 In the video Chuck mentions that he got it up and running using a 2GB Ram container. That is doable, but while using it you do see an increased latency and if you are like me you might not like waiting. While waiting might be something you can go over, one thing that I definetly did not like was that after configuring a setting, which I will show a bit down the road, to notify me in real time about a change in a specific file, with the 2GB RAM config it was no longer realtime. It took about 30 seconds to send you the notification.
 <br>
@@ -63,9 +59,7 @@ Steps done during this change:
 * Closed Jira ticket as complete
 
 
-<p>
-<img src="./assets/update_config_password.png"80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <h4>Upgrade of the Linode machine</h4>
 <p>
@@ -73,16 +67,12 @@ This change was quite simple as most of it is done by Linode itself. To acomplis
 </p>
 <br />
                                                                                         
- <p>
-<img src="./assets/change_ticket.png" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 
 <h2>Wazuh dashboard</h2>                                                                                     
                                                                                         
-<p>
-<img src="./assets/wazuh_connected_systems.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 After configuring the system with a new password, and also linking the server to a subdomain linked to my own domain, I started installing the agents and connect several machines to the system.
 
